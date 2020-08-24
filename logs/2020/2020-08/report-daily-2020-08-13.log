@@ -1,0 +1,20 @@
+{
+    "timeStamp": "13/Aug/2020:02:24:34 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v1/web/profile/mitra/store_lat_long on url 192.168.1.6:3333/api/v1/web/profile/mitra/store_lat_long",
+    "level": "ERR"
+}
+{
+    "timeStamp": "13/Aug/2020:02:30:02 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v1/merchant/pelanggan on url 192.168.1.6:3333/api/v1/merchant/pelanggan",
+    "level": "ERR"
+}
+{
+    "timeStamp": "13/Aug/2020:02:31:25 +0000",
+    "message": "The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined on url 192.168.1.6:3333/api/v1/merchant/pelanggan",
+    "level": "ERR"
+}
+{
+    "timeStamp": "13/Aug/2020:03:44:00 +0000",
+    "message": "select \"in_soal_langganan_paket\".*, \"in_soal_langganan_paket_harga\".\"amount\" from \"in_soal_langganan_paket\" inner join \"in_soal_langganan_paket_harga\" on \"in_soal_langganan_paket\".\"id_paket\" = \"in_soal_langganan_paket_harga\".\"id_paket\" order by \"in_soal_langganan_paket\".\"short\" ASC - Connection terminated unexpectedly on url 192.168.1.6:3333/api/v1/bo/list/paket",
+    "level": "ERR"
+}

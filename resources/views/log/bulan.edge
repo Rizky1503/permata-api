@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List log</title>
+</head>
+<body>
+	<ul>
+		@each(bulanData in bulan) 
+			<li><a href="{{ route('v2.log.view.hari', {tahun: tahun, bulan: bulanData}) }}">{{bulanData}}</a></li>	        
+	    @endeach 
+	</ul>
+</body>
+</html>

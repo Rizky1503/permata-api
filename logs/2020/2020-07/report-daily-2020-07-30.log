@@ -1,0 +1,150 @@
+{
+    "timeStamp": "30/Jul/2020:07:43:14 +0000",
+    "message": "Unexpected token \t\t\t\tlist \t\t      : list\t\t\t\r on url 192.168.1.6:3333/api/v2/content/getSemester",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:43:39 +0000",
+    "message": "Unexpected token \t\t\t\tlist \t\t      : list\t\t\t\r on url 192.168.1.6:3333/api/v2/content/getSemester",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:46:16 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ListContentMateri on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:47:06 +0000",
+    "message": "select \"content\".\"id_content\", \"bidang_studi\", \"topik\", \"limit\", \"content\".\"tahun\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"tahun\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 order by \"content\".\"id_content\" DESC - invalid input syntax for integer: \"null\" on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:49:45 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:49:50 +0000",
+    "message": "select \"content\".\"id_content\", \"bidang_studi\", \"topik\", \"limit\", \"content\".\"tahun\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"tahun\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 order by \"content\".\"id_content\" DESC - invalid input syntax for integer: \"null\" on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:09 +0000",
+    "message": "select \"content\".\"id_content\", \"bidang_studi\", \"topik\", \"limit\", \"content\".\"tahun\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"tahun\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 order by \"content\".\"id_content\" DESC - invalid input syntax for integer: \"null\" on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:18 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:18 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:19 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:19 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:19 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:20 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:20 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:20 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:20 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:20 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:20 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:21 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:21 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:21 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:21 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:21 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:37 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:50:57 +0000",
+    "message": "select count(*) from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:55:48 +0000",
+    "message": "Database.table(...).where(...).count(...).firest is not a function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:55:50 +0000",
+    "message": "Database.table(...).where(...).count(...).firest is not a function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:07:55:50 +0000",
+    "message": "Database.table(...).where(...).count(...).firest is not a function on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:08:57:27 +0000",
+    "message": "$listGabungan is not defined on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "30/Jul/2020:09:46:43 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal/ on url 192.168.1.6:3333/api/v2/soal/listSoal/",
+    "level": "ERR"
+}

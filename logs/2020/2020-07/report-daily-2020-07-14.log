@@ -1,0 +1,80 @@
+{
+    "timeStamp": "14/Jul/2020:03:46:22 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master on url 192.168.1.6:3333/api/v2/master",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:46:42 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/ on url 192.168.1.6:3333/api/v2/master/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:46:43 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/ on url 192.168.1.6:3333/api/v2/master/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:46:43 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/ on url 192.168.1.6:3333/api/v2/master/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:46:44 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/ on url 192.168.1.6:3333/api/v2/master/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:46:44 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/ on url 192.168.1.6:3333/api/v2/master/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:47:18 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/ on url 192.168.1.6:3333/api/v2/master/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:47:18 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/ on url 192.168.1.6:3333/api/v2/master/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:47:22 +0000",
+    "message": "select \"topik\" where \"id_topik\" = $1 limit $2 - column \"topik\" does not exist on url 192.168.1.6:3333/api/v2/master/TopikId",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:47:39 +0000",
+    "message": "select \"v2\".\"topik\" where \"id_topik\" = $1 limit $2 - missing FROM-clause entry for table \"v2\" on url 192.168.1.6:3333/api/v2/master/TopikId",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:47:40 +0000",
+    "message": "select \"v2\".\"topik\" where \"id_topik\" = $1 limit $2 - missing FROM-clause entry for table \"v2\" on url 192.168.1.6:3333/api/v2/master/TopikId",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:47:49 +0000",
+    "message": "select \"v2\".\"ms_topik\" where \"id_topik\" = $1 limit $2 - missing FROM-clause entry for table \"v2\" on url 192.168.1.6:3333/api/v2/master/TopikId",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:52:12 +0000",
+    "message": "params is not defined on url 192.168.1.6:3333/api/v2/master/TopikId/65",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:52:13 +0000",
+    "message": "params is not defined on url 192.168.1.6:3333/api/v2/master/TopikId/65",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:03:52:14 +0000",
+    "message": "params is not defined on url 192.168.1.6:3333/api/v2/master/TopikId/65",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Jul/2020:04:17:31 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/TopikId/65 on url 192.168.1.6:3333/api/v2/master/TopikId/65",
+    "level": "ERR"
+}

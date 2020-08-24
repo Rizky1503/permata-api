@@ -1,0 +1,215 @@
+{
+    "timeStamp": "25/Jun/2020:04:03:20 +0000",
+    "message": "E_UNDEFINED_METHOD: Method storeRingkasanMateri missing on App/Controllers/Http/v2/backend/Ts_RingkasanMateriController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/content/storeRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:04:03:45 +0000",
+    "message": "E_UNDEFINED_METHOD: Method storeRingkasanMateri missing on App/Controllers/Http/v2/backend/Ts_RingkasanMateriController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/ringkasan/storeRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:04:04:17 +0000",
+    "message": "E_UNDEFINED_METHOD: Method storeRingkasanMateri missing on App/Controllers/Http/v2/backend/Ts_RingkasanMateriController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/ringkasan/storeRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:04:04:52 +0000",
+    "message": "E_UNDEFINED_METHOD: Method storeRingkasanMateri missing on App/Controllers/Http/v2/backend/Ts_RingkasanMateriController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/ringkasan/storeRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:04:11:03 +0000",
+    "message": "insert into \"v2\".\"ringkasan\" (\"created_at\", \"created_by\", \"file\", \"id_content\", \"title\", \"updated_at\") values ($1, $2, $3, $4, $5, $6) - relation \"v2.ringkasan\" does not exist on url 192.168.1.6:3333/api/v2/ringkasan/storeRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:04:11:34 +0000",
+    "message": "insert into \"v2\".\"ringkasan_materi\" (\"created_at\", \"created_by\", \"file\", \"id_content\", \"title\", \"updated_at\") values ($1, $2, $3, $4, $5, $6) - relation \"v2.ringkasan_materi\" does not exist on url 192.168.1.6:3333/api/v2/ringkasan/storeRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:04:57:30 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/cs/bimbel/getwaktu on url 192.168.1.6:3333/api/v2/cs/bimbel/getwaktu",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:05:18:43 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/ringkasan/listRingkasanMateri on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:05:18:49 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/ringkasan/listRingkasanMateri on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:05:24:24 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/ringkasan/listRingkasanMateri/57 on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/57",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:05:24:48 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/ringkasan/listRingkasanMateri/57 on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/57",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:05:25:01 +0000",
+    "message": "request is not defined on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/57",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:05:34:43 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/ringkasan/deleteRingkasanMateri on url 192.168.1.6:3333/api/v2/ringkasan/deleteRingkasanMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:10:21 +0000",
+    "message": "select * from \"v2\".\"ts_ringkasan_materi\" where \"id_content\" = $1 order by \"title\" ASC - Connection terminated unexpectedly on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/57",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:25:20 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/mater/topik on url 192.168.1.6:3333/api/v2/mater/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:25:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/mater/topik on url 192.168.1.6:3333/api/v2/mater/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:32:28 +0000",
+    "message": "sort is not defined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:44:20 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ListContentMateri on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:50:34 +0000",
+    "message": "Cannot read property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:50:54 +0000",
+    "message": "Cannot read property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:51:41 +0000",
+    "message": "Cannot read property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:52:02 +0000",
+    "message": "Cannot read property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:52:13 +0000",
+    "message": "Identifier 'sort' has already been declared \t\tlet sort\r on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:52:34 +0000",
+    "message": "Identifier 'sort' has already been declared \t\tlet sort\r on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:52:35 +0000",
+    "message": "Identifier 'sort' has already been declared \t\tlet sort\r on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:52:43 +0000",
+    "message": "Identifier 'sort' has already been declared \t\tlet sort\r on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:52:54 +0000",
+    "message": "Cannot read property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:53:09 +0000",
+    "message": "Cannot read property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:53:32 +0000",
+    "message": "Cannot read property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:06:55:22 +0000",
+    "message": "Cannot read property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:09:17:48 +0000",
+    "message": "select \"id_ujian\", \"ujian\" from \"v2\".\"ms_ujian\" order by \"sort\" ASC - Connection terminated unexpectedly on url 192.168.1.6:3333/api/v2/content/getUjian",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:09:57:50 +0000",
+    "message": "Cannot find module 'D:\\xampp\\htdocs\\permatamall-api\\app\\Controllers\\Http\\v2\\Backend\\Ts_SoalController'\nRequire stack:\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\src\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\src\\Ioc\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\server.js on url 192.168.1.6:3333/api/v2/soal/storeSoal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:13:02:29 +0000",
+    "message": "select * from \"in_user\" where \"nama\" = $1 limit $2 - relation \"in_user\" does not exist on url 192.168.1.6:3333/api/v1/merchant/login",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:13:02:43 +0000",
+    "message": "select * from \"in_user\" where \"nama\" = $1 limit $2 - relation \"in_user\" does not exist on url 192.168.1.6:3333/api/v1/merchant/login",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:13:02:45 +0000",
+    "message": "select * from \"in_user\" where \"nama\" = $1 limit $2 - relation \"in_user\" does not exist on url 192.168.1.6:3333/api/v1/merchant/login",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:13:03:20 +0000",
+    "message": "select * from \"in_user\" where \"nama\" = $1 limit $2 - relation \"in_user\" does not exist on url 192.168.1.6:3333/api/v1/merchant/login",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:13:43:00 +0000",
+    "message": "Unexpected token \t\t\t\t.insert({\r on url 192.168.1.6:3333/api/v2/soal/storeSoal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:13:44:21 +0000",
+    "message": "Unexpected token \t\t\t\t.insert({\r on url 192.168.1.6:3333/api/v2/soal/storeSoal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:14:42:58 +0000",
+    "message": "select * from \"v2\".\"ts_soal\" where \"id_content\" = $1 order by \"title\" ASC - column \"title\" does not exist on url 192.168.1.6:3333/api/v2/soal/listSoal/66",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:15:17:51 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/deleteSoal/11 on url 192.168.1.6:3333/api/v2/soal/deleteSoal/11",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:15:17:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/deleteSoal/11 on url 192.168.1.6:3333/api/v2/soal/deleteSoal/11",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:15:18:21 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/deleteSoal/11 on url 192.168.1.6:3333/api/v2/soal/deleteSoal/11",
+    "level": "ERR"
+}
+{
+    "timeStamp": "25/Jun/2020:15:22:41 +0000",
+    "message": "connect ETIMEDOUT 103.241.24.142:5432 on url 192.168.1.6:3333/api/v2/soal/storeSoal",
+    "level": "ERR"
+}

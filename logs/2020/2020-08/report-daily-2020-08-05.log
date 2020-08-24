@@ -1,0 +1,475 @@
+{
+    "timeStamp": "05/Aug/2020:02:47:42 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/TopikMatpel on url 192.168.1.6:3333/api/v2/master/TopikMatpel",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:02:48:25 +0000",
+    "message": "connect ETIMEDOUT 103.241.24.142:5432 on url 192.168.1.6:3333/api/v2/master/TopikMatpel",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:02:49:21 +0000",
+    "message": "select * from \"v2\".\"ms_topik\" as \"topik\" where not exists (select * from \"v2\".\"ts_content\" as \"content\" where \"topik\".\"id_topik\" = $1) - invalid input syntax for integer: \"content.id_topik\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:02:49:23 +0000",
+    "message": "select * from \"v2\".\"ms_topik\" as \"topik\" where not exists (select * from \"v2\".\"ts_content\" as \"content\" where \"topik\".\"id_topik\" = $1) - invalid input syntax for integer: \"content.id_topik\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:02:49:52 +0000",
+    "message": "select * from \"v2\".\"ms_topik\" as \"topik\" where not exists (select * from \"v2\".\"ts_content\" as \"content\" where \"topik\".\"id_topik\" = $1) - invalid input syntax for integer: \"content.id_topik\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:02:50:44 +0000",
+    "message": "select * from \"v2\".\"ms_topik\" as \"topik\" where exists (select * from \"v2\".\"ts_content\" as \"content\" where \"topik\".\"id_topik\" = $1) - invalid input syntax for integer: \"content.id_topik\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:00:36 +0000",
+    "message": "Database.table(...).letJoin is not a function on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:00:54 +0000",
+    "message": "select * from \"v2\".\"ms_topik\" as \"topik\" left join \"v2\".\"ts_content\" as \"content\" on \"topik\".\"id_topik\" = \"content\".\"id_topik\" where \"topik\" = $1 group by \"topik\".\"id_topik\" - column \"content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:01:47 +0000",
+    "message": "select \"topik\".\"id_topik\", \"topik\".\"topik\" from \"v2\".\"ms_topik\" as \"topik\" left join \"v2\".\"ts_content\" as \"content\" on \"topik\".\"id_topik\" = \"content\".\"id_topik\" where \"content\" = $1 group by \"topik\".\"id_topik\" - input of anonymous composite types is not implemented on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:02:02 +0000",
+    "message": "select \"topik\".\"id_topik\", \"topik\".\"topik\" from \"v2\".\"ms_topik\" as \"topik\" left join \"v2\".\"ts_content\" as \"content\" on \"topik\".\"id_topik\" = \"content\".\"id_topik\" where \"content\" = $1 - input of anonymous composite types is not implemented on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:09:39 +0000",
+    "message": "select \"topik\".\"id_topik\", \"topik\".\"topik\", \"topik\".\"sort\" from \"v2\".\"ts_content\" as \"content\" left join \"v2\".\"ms_topik\" as \"topik\" on \"topik\".\"id_topik\" = \"content\".\"id_topik\" where \"content\".\"id_bidang_studi\" = $1 and \"id_topik\" is not null group by \"topik\".\"id_topik\" - column reference \"id_topik\" is ambiguous on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:15:02 +0000",
+    "message": "select topik.id_topik','topik.topik','topik.sort from v2.ms_topik as topik (from v2.ts_content as content WHERE topik.id_topik = ts_content.id_topik order by topik.sort) - syntax error at or near \".\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:15:17 +0000",
+    "message": "select topik.id_topik','topik.topik','topik.sort from v2.ms_topik as topik (select 1 from v2.ts_content as content WHERE topik.id_topik = ts_content.id_topik order by topik.sort) - syntax error at or near \".\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:20:52 +0000",
+    "message": "select topik.id_topik','topik.topik','topik.sort from v2.ms_topik topik (select 1 from v2.ts_content content WHERE topik.id_topik = ts_content.id_topik order by topik.sort) - syntax error at or near \".\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:21:08 +0000",
+    "message": "select topik.id_topik,topik.topik,topik.sort from v2.ms_topik topik (select 1 from v2.ts_content content WHERE topik.id_topik = ts_content.id_topik order by topik.sort) - syntax error at or near \"select\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:24:18 +0000",
+    "message": "select topik.id_topik,topik.topik,topik.sort from v2.ms_topik topik (select 1 from v2.ts_content content WHERE topik.id_topik = content.id_topik order by topik.sort) - syntax error at or near \"select\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:28:06 +0000",
+    "message": "Cannot read property '0' of undefined on url 192.168.1.6:3333/api/v2/master/TopikMatpel/not",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:28:22 +0000",
+    "message": "Cannot read property '0' of undefined on url 192.168.1.6:3333/api/v2/master/TopikMatpel/99",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:38:05 +0000",
+    "message": "select \"topik\".\"id_topik\", \"topik\".\"topik\", \"topik\".\"sort\" from \"v2\".\"ts_content\" as \"content\" left join \"v2\".\"ms_topik\" as \"topik\" on \"topik\".\"id_topik\" = \"content\".\"id_topik\" where \"content\".\"id_bidang_studi\" = $1 and \"topik\".\"id_topik\" is not null group by \"topik\".\"id_topik\" order by \"topik\".\"sort\" ASC - invalid input syntax for integer: \"+matpel+\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel/+matpel+",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:38:54 +0000",
+    "message": "select \"topik\".\"id_topik\", \"topik\".\"topik\", \"topik\".\"sort\" from \"v2\".\"ts_content\" as \"content\" left join \"v2\".\"ms_topik\" as \"topik\" on \"topik\".\"id_topik\" = \"content\".\"id_topik\" where \"content\".\"id_bidang_studi\" = $1 and \"topik\".\"id_topik\" is not null group by \"topik\".\"id_topik\" order by \"topik\".\"sort\" ASC - invalid input syntax for integer: \".matpel.\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel/.matpel.",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:03:41:16 +0000",
+    "message": "select \"topik\".\"id_topik\", \"topik\".\"topik\", \"topik\".\"sort\" from \"v2\".\"ts_content\" as \"content\" left join \"v2\".\"ms_topik\" as \"topik\" on \"topik\".\"id_topik\" = \"content\".\"id_topik\" where \"content\".\"id_bidang_studi\" = $1 and \"topik\".\"id_topik\" is not null group by \"topik\".\"id_topik\" order by \"topik\".\"sort\" ASC - invalid input syntax for integer: \".matpel.\" on url 192.168.1.6:3333/api/v2/master/TopikMatpel/.matpel.",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:14:05 +0000",
+    "message": "Unexpected token \tasync KelasTopik({{response}){\r on url 192.168.1.6:3333/api/v2/master/KelasTopik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:22:18 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/getBidangStudi/ on url 192.168.1.6:3333/api/v2/master/getBidangStudi/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:22:26 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/getBidangStudi on url 192.168.1.6:3333/api/v2/master/getBidangStudi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:25:22 +0000",
+    "message": "E_UNDEFINED_METHOD: Method getBidangStudi/:id missing on App/Controllers/Http/v2/Backend/Ts_MasterController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/master/getBidangStudi/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:26:47 +0000",
+    "message": "select \"matpel\".\"bidang_studi\", \"matpel\".\"id_bidang_studi\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"matpel\" on \"content\".\"id_bidang_studi\" = \"matpel\".\"id_bidang_studi\" where \"content\".\"kelas\" = $1 group by \"matpel\".\"bidang_studi\", \"matpel\".\"id_bidang_studi\" order by \"matpel\".\"sort\" asc - column content.kelas does not exist on url 192.168.1.6:3333/api/v2/master/getBidangStudi/5",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:26:49 +0000",
+    "message": "select \"matpel\".\"bidang_studi\", \"matpel\".\"id_bidang_studi\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"matpel\" on \"content\".\"id_bidang_studi\" = \"matpel\".\"id_bidang_studi\" where \"content\".\"kelas\" = $1 group by \"matpel\".\"bidang_studi\", \"matpel\".\"id_bidang_studi\" order by \"matpel\".\"sort\" asc - column content.kelas does not exist on url 192.168.1.6:3333/api/v2/master/getBidangStudi/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:27:35 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/TopikMatpel/ on url 192.168.1.6:3333/api/v2/master/TopikMatpel/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:35:54 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/TopikMatpel/2/1 on url 192.168.1.6:3333/api/v2/master/TopikMatpel/2/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:04:36:24 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/TopikMatpel/2/1 on url 192.168.1.6:3333/api/v2/master/TopikMatpel/2/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:05:14:50 +0000",
+    "message": "Unexpected token \tasync sortTopikContent({request params}){\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2/3",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:05:14:52 +0000",
+    "message": "Unexpected token \tasync sortTopikContent({request params}){\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2/3",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:05:15:14 +0000",
+    "message": "$params is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2/3",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:05:59:27 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/sortTopikContent/2 on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:04:46 +0000",
+    "message": "The operator \"undefined\" is not permitted on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:14:14 +0000",
+    "message": "num is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:27:57 +0000",
+    "message": "Unexpected token \t\t\tdata[i]['sort']  = substr(data[i].id_kelas,0,1;\t\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:28:09 +0000",
+    "message": "substr is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:31:33 +0000",
+    "message": "data[i].id_kelas.substr is not a function on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:32:29 +0000",
+    "message": "data[i].id_kelas.substr is not a function on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:40:31 +0000",
+    "message": "string is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:40:43 +0000",
+    "message": "string is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:40:44 +0000",
+    "message": "string is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:46:13 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:46:15 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:46:16 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:46:17 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:46:18 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:46:26 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:51:33 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:53:17 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:06:55:17 +0000",
+    "message": "subs_kelas is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:04:35 +0000",
+    "message": "Unexpected token \t\t\t\tfor (a = 0; a < topik.length a++){\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:04:57 +0000",
+    "message": "Unexpected token \t\t\t\tfor (var = a = 0; a < topik.length a++){\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:05:16 +0000",
+    "message": "Unexpected token \t\t\t\tfor (var a = 0; a < topik.length a++){\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:05:31 +0000",
+    "message": "The keyword 'let' is reserved \t\t\t\t\tlet = id_topik = 0\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:20:31 +0000",
+    "message": "Unexpected token \t\t\t\t\t}else (num_topik.length > 1){\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:20:51 +0000",
+    "message": "Cannot set property 'sort' of undefined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:21:06 +0000",
+    "message": "Cannot set property 'id_topik' of undefined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:21:23 +0000",
+    "message": "Cannot set property 'id_topik' of undefined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:21:31 +0000",
+    "message": "num_topik is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:21:44 +0000",
+    "message": "Cannot set property 'id_topik' of undefined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:22:11 +0000",
+    "message": "Cannot set property 'id_topik' of undefined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:26:15 +0000",
+    "message": "id_matpel is not defined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:07:27:14 +0000",
+    "message": "Cannot set property 'id_topik' of undefined on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:00:33 +0000",
+    "message": "Converting circular structure to JSON\n    --> starting at object with constructor 'Array'\n    |     index 0 -> object with constructor 'Object'\n    --- property 'wid_topik' closes the circle on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:00:52 +0000",
+    "message": "Converting circular structure to JSON\n    --> starting at object with constructor 'Object'\n    --- property 'wid_topik' closes the circle on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:05:02 +0000",
+    "message": "Unexpected token \t\t\t\t\t\t.where('id_kelas'wid_kelas)\r on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:05:23 +0000",
+    "message": "update  set \"sort\" = $1 where \"id_kelas\" = $2 and \"id_bidang_studi\" = $3 and \"id_topik\" = $4 - syntax error at or near \"=\" on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:05:39 +0000",
+    "message": "select \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_bidang_studi\" = $2 and \"id_topik\" = $3 - missing FROM-clause entry for table \"v2\" on url 192.168.1.6:3333/api/v2/master/sortTopikContent/16",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:43:31 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:44:05 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:44:59 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:45:15 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:46:10 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:08:47:05 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:00:05 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:01:14 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:01:36 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 - column reference \"id_bidang_studi\" is ambiguous on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:01:40 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 - column reference \"id_bidang_studi\" is ambiguous on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:01:43 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 - column reference \"id_bidang_studi\" is ambiguous on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:01:44 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 - column reference \"id_bidang_studi\" is ambiguous on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:01:45 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 - column reference \"id_bidang_studi\" is ambiguous on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:01:46 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 - column reference \"id_bidang_studi\" is ambiguous on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:09:06:03 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/master/sortTopikContent/2 on url 192.168.1.6:3333/api/v2/master/sortTopikContent/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:05:15 +0000",
+    "message": "params is not defined on url 192.168.1.6:3333/api/v2/content/getBidangStudi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:05:19 +0000",
+    "message": "params is not defined on url 192.168.1.6:3333/api/v2/content/getBidangStudi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:08:56 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sorting\" as \"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"content\".\"id_bidang_studi\" = $4 order by \"content\".\"sorting\" asc - column content.sorting does not exist on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:09:47 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\", \"id_kumpulan\", \"kumpulan\".\"free\", \"content\".\"sorting\" as \"sort\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"content\".\"id_bidang_studi\" = $4 order by \"content\".\"sorting\" asc - column content.sorting does not exist on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:11:39 +0000",
+    "message": "select \"content\".\"id_bidang_studi\", \"content\".\"bidang_studi\" from \"v2\".\"ms_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidstud\" on \"content\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" where \"id_kelas\" = $1 and \"id_feature\" = $2 order by \"bidstud\".\"sort\" ASC - relation \"v2.ms_content\" does not exist on url 192.168.1.6:3333/api/v2/content/getBidangStudiId/2/4",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:11:50 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/content/getBidangStudiId/2/4 on url 192.168.1.6:3333/api/v2/content/getBidangStudiId/2/4",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:11:53 +0000",
+    "message": "select \"content\".\"id_bidang_studi\", \"content\".\"bidang_studi\" from \"v2\".\"ms_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidstud\" on \"content\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" where \"id_kelas\" = $1 and \"id_feature\" = $2 order by \"bidstud\".\"sort\" ASC - relation \"v2.ms_content\" does not exist on url 192.168.1.6:3333/api/v2/content/getBidangStudiId/2/4",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:12:13 +0000",
+    "message": "select \"content\".\"id_bidang_studi\", \"content\".\"bidang_studi\" from \"v2\".\"ms_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidstud\" on \"content\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" where \"id_kelas\" = $1 and \"id_feature\" = $2 order by \"bidstud\".\"sort\" ASC - relation \"v2.ms_content\" does not exist on url 192.168.1.6:3333/api/v2/content/getBidangStudiId/2/4",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:12:29 +0000",
+    "message": "select \"content\".\"id_bidang_studi\", \"content\".\"bidang_studi\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidstud\" on \"content\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" where \"id_kelas\" = $1 and \"id_feature\" = $2 order by \"bidstud\".\"sort\" ASC - column content.bidang_studi does not exist on url 192.168.1.6:3333/api/v2/content/getBidangStudiId/2/4",
+    "level": "ERR"
+}
+{
+    "timeStamp": "05/Aug/2020:10:13:11 +0000",
+    "message": "select \"content\".\"id_bidang_studi\", \"bidstud\".\"bidang_studi\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidstud\" on \"content\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" where \"id_kelas\" = $1 and \"id_feature\" = $2 group by \"content\".\"id_bidang_studi\", \"bidstud\".\"bidang_studi\" order by \"bidstud\".\"sort\" ASC - column \"bidstud.sort\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/getBidangStudiId/2/4",
+    "level": "ERR"
+}

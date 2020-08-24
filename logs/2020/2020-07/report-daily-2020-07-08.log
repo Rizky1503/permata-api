@@ -1,0 +1,115 @@
+{
+    "timeStamp": "08/Jul/2020:00:53:43 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST //api/v2/recruitment/storerecruitment on url 192.168.1.6:3333//api/v2/recruitment/storerecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:00:53:44 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST //api/v2/recruitment/storerecruitment on url 192.168.1.6:3333//api/v2/recruitment/storerecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:00:53:45 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST //api/v2/recruitment/storerecruitment on url 192.168.1.6:3333//api/v2/recruitment/storerecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:00:53:50 +0000",
+    "message": "E_UNDEFINED_METHOD: Method storerecruitment missing on App/Controllers/Http/v2/Backend/Ts_videoController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/recruitment/storerecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:00:54:04 +0000",
+    "message": "insert into \"v2\".\"ts_recruitment\" (\"id_content\", \"title\") values ($1, $2) - column \"id_content\" of relation \"ts_recruitment\" does not exist on url 192.168.1.6:3333/api/v2/recruitment/storerecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:00:54:25 +0000",
+    "message": "insert into \"v2\".\"ts_recruitment\" (\"file\", \"nama\") values ($1, $2) - column \"file\" of relation \"ts_recruitment\" does not exist on url 192.168.1.6:3333/api/v2/recruitment/storerecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:01:45:27 +0000",
+    "message": "response is not defined on url 192.168.1.6:3333/api/v2/recruitment/ListRecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:01:45:58 +0000",
+    "message": "response is not defined on url 192.168.1.6:3333/api/v2/recruitment/ListRecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:01:45:59 +0000",
+    "message": "response is not defined on url 192.168.1.6:3333/api/v2/recruitment/ListRecruitment",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:03:16:10 +0000",
+    "message": "list is not defined on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:03:16:11 +0000",
+    "message": "list is not defined on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:03:16:11 +0000",
+    "message": "list is not defined on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:03:16:12 +0000",
+    "message": "list is not defined on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:06:27:34 +0000",
+    "message": "Unexpected token                 soal.created_by : Inputs.created_by\r on url 192.168.1.6:3333/api/v1/cs/bimbelNolog/getkelas",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:06:27:36 +0000",
+    "message": "Unexpected token                 soal.created_by : Inputs.created_by\r on url 192.168.1.6:3333/api/v1/cs/bimbelNolog/getkelas",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:06:27:37 +0000",
+    "message": "Unexpected token                 soal.created_by : Inputs.created_by\r on url 192.168.1.6:3333/api/v1/cs/bimbelNolog/getkelas",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:06:27:55 +0000",
+    "message": "Unexpected token                 soal.created_by : Inputs.created_by\r on url 192.168.1.6:3333/api/v1/cs/bimbelNolog/getkelas",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:07:34:15 +0000",
+    "message": "Undefined binding(s) detected when compiling UPDATE query: update \"v2\".\"ms_topik\" set \"created_by\" = ? where \"id_topik\" = ? on url 192.168.1.6:3333/api/v2/master/UpdateSortTopik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:07:34:19 +0000",
+    "message": "Undefined binding(s) detected when compiling UPDATE query: update \"v2\".\"ms_topik\" set \"created_by\" = ? where \"id_topik\" = ? on url 192.168.1.6:3333/api/v2/master/UpdateSortTopik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:07:34:48 +0000",
+    "message": "Undefined binding(s) detected when compiling UPDATE query: update \"v2\".\"ms_topik\" set \"sort\" = ?, \"created_by\" = ? where \"id_topik\" = ? on url 192.168.1.6:3333/api/v2/master/UpdateSortTopik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:07:34:53 +0000",
+    "message": "Undefined binding(s) detected when compiling UPDATE query: update \"v2\".\"ms_topik\" set \"sort\" = ?, \"created_by\" = ? where \"id_topik\" = ? on url 192.168.1.6:3333/api/v2/master/UpdateSortTopik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:07:35:34 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/UpdateSortTopik on url 192.168.1.6:3333/api/v2/master/UpdateSortTopik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "08/Jul/2020:07:35:42 +0000",
+    "message": "Undefined binding(s) detected when compiling UPDATE query: update \"v2\".\"ms_topik\" set \"sort\" = ?, \"created_by\" = ? where \"id_topik\" = ? on url 192.168.1.6:3333/api/v2/master/UpdateSortTopik",
+    "level": "ERR"
+}

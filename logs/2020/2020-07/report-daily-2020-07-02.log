@@ -1,0 +1,45 @@
+{
+    "timeStamp": "02/Jul/2020:08:35:22 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/web/GetRingkasanMateriRandom on url 192.168.1.6:3333/api/v2/web/GetRingkasanMateriRandom",
+    "level": "ERR"
+}
+{
+    "timeStamp": "02/Jul/2020:08:35:37 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/web/GetRingkasanMateriRandom on url 192.168.1.6:3333/api/v2/web/GetRingkasanMateriRandom",
+    "level": "ERR"
+}
+{
+    "timeStamp": "02/Jul/2020:08:35:46 +0000",
+    "message": "Cannot chain .first() on \"del\" query! on url 192.168.1.6:3333/api/v2/web/ringkasan",
+    "level": "ERR"
+}
+{
+    "timeStamp": "02/Jul/2020:08:58:21 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/v2/image/ringkasan-materi20200626-FISIKA_3.png on url 192.168.1.6:3333/api/v2/v2/image/ringkasan-materi20200626-FISIKA_3.png",
+    "level": "ERR"
+}
+{
+    "timeStamp": "02/Jul/2020:09:52:25 +0000",
+    "message": "select * from \"v2\".\"ts\".\"soal\" order by random() limit $1 - cross-database references are not implemented: \"v2.ts.soal\" on url 192.168.1.6:3333/api/v2/web/soal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "02/Jul/2020:09:57:43 +0000",
+    "message": "select \"soal\".\"pembahasan\", \"soal\".\"soal\", \"kelas\".\"kelas\", \"bidstud\".\"bidang_studi\" from \"v2\".\"ts_soal\" as \"soal\" inner join \"v2\".\"ts_content\" as \"konten\" on \"soal\".\"id_content\" = \"konten\".\"id_content\" inner join \"v2\".\"ms_kelas\" as \"kelas\" on \"konten\".\"id_kelas\" = \"kelas\".\"id_kelas\" inner join \"v2\".\"bidang_studi\" as \"bidstud\" on \"konten\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" order by random() limit $1 - relation \"v2.bidang_studi\" does not exist on url 192.168.1.6:3333/api/v2/web/soal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "02/Jul/2020:09:59:03 +0000",
+    "message": "select \"soal\".\"pembahasan\", \"soal\".\"soal\", \"kelas\".\"kelas\", \"bidstud\".\"bidang_studi\", \"topik\".\"topik\" from \"v2\".\"ts_soal\" as \"soal\" inner join \"v2\".\"ts_content\" as \"konten\" on \"soal\".\"id_content\" = \"konten\".\"id_content\" inner join \"v2\".\"ms_kelas\" as \"kelas\" on \"konten\".\"id_kelas\" = \"kelas\".\"id_kelas\" inner join \"v2\".\"ms_bidang_studi\" as \"bidstud\" on \"konten\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" inner join \"v2\".\"topik\" as \"topik\" on \"konten\".\"id_topik\" = \"topik\".\"id_topik\" order by random() limit $1 - relation \"v2.topik\" does not exist on url 192.168.1.6:3333/api/v2/web/soal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "02/Jul/2020:10:05:56 +0000",
+    "message": "select \"soal\".\"pembahasan\", \"soal\".\"soal\", \"kelas\".\"kelas\", \"bidstud\".\"bidang_studi\", \"topik\".\"topik\" from \"v2\".\"ts_soal\" as \"soal\" inner join \"v2\".\"ts_content\" as \"konten\" on \"soal\".\"id_content\" = \"konten\".\"id_content\" inner join \"v2\".\"ms_kelas\" as \"kelas\" on \"konten\".\"id_kelas\" = \"kelas\".\"id_kelas\" inner join \"v2\".\"ms_bidang_studi\" as \"bidstud\" on \"konten\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" where \"konten\".\"id_topik\" is not null order by random() limit $1 - missing FROM-clause entry for table \"topik\" on url 192.168.1.6:3333/api/v2/web/soal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "02/Jul/2020:10:12:17 +0000",
+    "message": "select \"ringkasan\".\"file\", \"kelas\".\"kelas\", \"bidstud\".\"bidang_studi\", \"soal\".\"id_content\" from \"v2\".\"ts_ringkasan_materi\" as \"ringkasan\" inner join \"v2\".\"ts_content\" as \"konten\" on \"ringkasan\".\"id_content\" = \"konten\".\"id_content\" inner join \"v2\".\"ms_kelas\" as \"kelas\" on \"konten\".\"id_kelas\" = \"kelas\".\"id_kelas\" inner join \"v2\".\"ms_bidang_studi\" as \"bidstud\" on \"konten\".\"id_bidang_studi\" = \"bidstud\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"konten\".\"id_topik\" = \"topik\".\"id_topik\" order by random() limit $1 - missing FROM-clause entry for table \"soal\" on url 192.168.1.6:3333/api/v2/web/ringkasan",
+    "level": "ERR"
+}

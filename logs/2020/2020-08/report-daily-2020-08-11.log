@@ -1,0 +1,275 @@
+{
+    "timeStamp": "11/Aug/2020:02:06:34 +0000",
+    "message": "select \"in_soal_langganan_paket\".*, \"in_soal_langganan_paket_harga\".\"amount\" from \"in_soal_langganan_paket\" inner join \"in_soal_langganan_paket_harga\" on \"in_soal_langganan_paket\".\"id_paket\" = \"in_soal_langganan_paket_harga\".\"id_paket\" order by \"in_soal_langganan_paket\".\"short\" ASC - Connection terminated unexpectedly on url 192.168.1.6:3333/api/v1/bo/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:04:38:58 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - invalid input syntax for integer: \"KELAS 12 IPA\" on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:04:39:12 +0000",
+    "message": "Cannot read property 'length' of undefined on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:04:39:34 +0000",
+    "message": "Cannot read property 'length' of undefined on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:04:39:35 +0000",
+    "message": "Cannot read property 'length' of undefined on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:04:40:37 +0000",
+    "message": "Cannot read property 'length' of undefined on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:04:41:02 +0000",
+    "message": "convertRupiah is not defined on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:04:42:44 +0000",
+    "message": "convertRupiah is not defined on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:04:54:04 +0000",
+    "message": "select * from \"v2\".\"tscn_order\" as \"order\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"order\".\"id_paket\" where \"order\".\"id_pelanggan\" = $1 and \"order\".\"tab_order\" = $2 and \"order\".\"status_order\" = $3 and \"paket_available\".\"id_kelas\" = $4 limit $5 - invalid input syntax for integer: \"eyJpdiI6IlNQcUVUMGsxUzUzYXZtVzd1MHIycmc9PSIsInZhbHVlIjoicFFyZmFMTm1qZWdHcVBMRHFUNUgxZz09IiwibWFjIjoiOTM4NWU2MDlmODJkNDc5YjcyYzJkMDU0MWM0MWNlODA1MDlmY2MyMWY5N2RjYmMzOWI2M2VkZTkxZGMwMjVkNyJ9\" on url 192.168.1.6:3333/api/v2/web/transaksi/check/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:05:11:02 +0000",
+    "message": "select \"type\" as \"value\" from \"v2\".\"tscn_price\" as \"price\" where not \"type\" = $1 group by \"type\" order by \"type\" ASC - invalid input value for enum type_langganan: \"hari\" on url 192.168.1.6:3333/api/v2/web/transaksi/filter",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:05:11:05 +0000",
+    "message": "select \"type\" as \"value\" from \"v2\".\"tscn_price\" as \"price\" where not \"type\" = $1 group by \"type\" order by \"type\" ASC - invalid input value for enum type_langganan: \"hari\" on url 192.168.1.6:3333/api/v2/web/transaksi/filter",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:05:54:21 +0000",
+    "message": "select \"type\" as \"value\" from \"v2\".\"tscn_price\" as \"price\" where not \"value\" = $1 group by \"type\" order by \"type\" ASC - column \"value\" does not exist on url 192.168.1.6:3333/api/v2/web/transaksi/filter",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:05:54:51 +0000",
+    "message": "select \"type\" as \"value\" from \"v2\".\"tscn_price\" as \"price\" where not \"value\" = $1 group by \"type\" order by \"type\" ASC - column \"value\" does not exist on url 192.168.1.6:3333/api/v2/web/transaksi/filter",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:05:55:29 +0000",
+    "message": "select \"type\" as \"value\" from \"v2\".\"tscn_price\" as \"price\" where not \"type\" = $1 group by \"type\" order by \"type\" ASC - invalid input value for enum type_langganan: \"hari\" on url 192.168.1.6:3333/api/v2/web/transaksi/filter",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:02:22 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select * from \"v2\".\"tscn_order\" as \"order\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"order\".\"id_paket\" where \"order\".\"id_pelanggan\" = ? and \"order\".\"tab_order\" = ? and \"order\".\"status_order\" = ? and \"paket_available\".\"id_kelas\" = ? limit ? on url 192.168.1.6:3333/api/v2/web/transaksi/check/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:20:17 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\".\"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - missing FROM-clause entry for table \"kelas\" on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:20:22 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\".\"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - missing FROM-clause entry for table \"kelas\" on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:20:32 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - column \"ms_kelas.kelas\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:35:23 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"expired\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"expired\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - column \"expired\" does not exist on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:35:51 +0000",
+    "message": "Unexpected token \t\t\t\tresult[iresult]eexpired \t\t= moment().add(result.duration, 'days');\r on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:36:43 +0000",
+    "message": "Unexpected token \t\t\t\tresult[iresult]expired \t\t= moment().add(result.duration, 'days');\r on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:37:15 +0000",
+    "message": "Unexpected token \t\t\t\tresult[iresult]expired \t\t= moment().add(result[iresult].duration, 'days');\r on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:06:37:57 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"expired\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"expired\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - column \"expired\" does not exist on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:07:25:51 +0000",
+    "message": "select * from \"v2\".\"tscn_order\" as \"order\" inner join \"v2\".\"tscn_paket\" as \"paket\" on \"paket\".\"id_paket\" = \"order\".\"id_paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_price\" = \"order\".\"id_price\" inner join \"in_pelanggan\" as \"pelanggan\" on \"pelanggan\".\"id_pelanggan\" = \"order\".\"id_pelanggan\" where \"order\".\"id_pelanggan\" = $1 and \"order\".\"id_paket\" = $2 and \"order\".\"id_price\" = $3 and \"order\".\"status_order\" in ($4, $5) limit $6 - invalid input syntax for integer: \"{\"6\",\"8\"}\" on url 192.168.1.6:3333/api/v2/web/transaksi/order/requested",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:07:26:32 +0000",
+    "message": "select * from \"v2\".\"tscn_order\" as \"order\" inner join \"v2\".\"tscn_paket\" as \"paket\" on \"paket\".\"id_paket\" = \"order\".\"id_paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_price\" = \"order\".\"id_price\" inner join \"in_pelanggan\" as \"pelanggan\" on \"pelanggan\".\"id_pelanggan\" = \"order\".\"id_pelanggan\" where \"order\".\"id_pelanggan\" = $1 and \"order\".\"id_paket\" = $2 and \"order\".\"id_price\" = $3 and \"order\".\"status_order\" in ($4, $5) limit $6 - invalid input syntax for integer: \"{\"6\",\"8\"}\" on url 192.168.1.6:3333/api/v2/web/transaksi/order/requested",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:07:26:52 +0000",
+    "message": "select * from \"v2\".\"tscn_order\" as \"order\" inner join \"v2\".\"tscn_paket\" as \"paket\" on \"paket\".\"id_paket\" = \"order\".\"id_paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_price\" = \"order\".\"id_price\" inner join \"in_pelanggan\" as \"pelanggan\" on \"pelanggan\".\"id_pelanggan\" = \"order\".\"id_pelanggan\" where \"order\".\"id_pelanggan\" = $1 and \"order\".\"id_paket\" = $2 and \"order\".\"id_price\" = $3 and \"order\".\"status_order\" in ($4, $5) limit $6 - invalid input syntax for integer: \"{\"6\",\"8\"}\" on url 192.168.1.6:3333/api/v2/web/transaksi/order/requested",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:07:27:45 +0000",
+    "message": "select * from \"v2\".\"tscn_price\" as \"price\" inner join \"v2\".\"tscn_paket\" as \"paket\" on \"paket\".\"id_paket\" = \"paket\".\"id_paket\" where \"price\".\"id_price\" = $1 and \"paket\".\"id_paket\" = $2 limit $3 - invalid input syntax for integer: \"{\"6\",\"8\"}\" on url 192.168.1.6:3333/api/v2/web/transaksi/order/requested",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:07:28:24 +0000",
+    "message": "randomstring is not defined on url 192.168.1.6:3333/api/v2/web/transaksi/order/requested",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:10:41:58 +0000",
+    "message": "this.payWithTransefer is not a function on url 192.168.1.6:3333/api/v2/web/transaksi/order/paymentSubmit",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:10:42:02 +0000",
+    "message": "this.payWithTransefer is not a function on url 192.168.1.6:3333/api/v2/web/transaksi/order/paymentSubmit",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:10:50:15 +0000",
+    "message": "invoice is not defined on url 192.168.1.6:3333/api/v2/web/transaksi/order/paymentSubmit",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:10:50:49 +0000",
+    "message": "Cannot access 'data' before initialization on url 192.168.1.6:3333/api/v2/web/transaksi/order/paymentSubmit",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:10:51:18 +0000",
+    "message": "Cannot access 'data' before initialization on url 192.168.1.6:3333/api/v2/web/transaksi/order/paymentSubmit",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:10:51:38 +0000",
+    "message": "id_payment is not defined on url 192.168.1.6:3333/api/v2/web/transaksi/order/paymentSubmit",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:13:12:43 +0000",
+    "message": "fetch is not defined on url 192.168.1.6:3333/api/v2/web/transaksi/order/paymentSubmit",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:14:38:56 +0000",
+    "message": "Unexpected token \tasync list({request, response}){\r on url 192.168.1.6:3333/api/v2/web/transaksi/order/requested",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:14:39:08 +0000",
+    "message": "Unexpected token \tasync list({request, response}){\r on url 192.168.1.6:3333/api/v2/web/transaksi/order/status",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:14:40:03 +0000",
+    "message": "Unexpected token \tasync list({request, response}){\r on url 192.168.1.6:3333/api/v2/web/transaksi/order/status",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:14:41:45 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/web/transaksi/order/list on url 192.168.1.6:3333/api/v2/web/transaksi/order/list",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:00:40 +0000",
+    "message": "Env is not defined on url 192.168.1.6:3333/api/v2/web/transaksi/check/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:01:11 +0000",
+    "message": "Env is not defined on url 192.168.1.6:3333/api/v2/web/transaksi/check/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:42:04 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:42:12 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:42:13 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:42:13 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:42:14 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:42:26 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:42:26 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:43:05 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:43:50 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\".\"type\" ASC on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:15:43:57 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = ? and \"kategori\" not in (?) and \"ms_kelas\".\"id_kelas\" = ? and \"price\".\"type\" = ? group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:16:06:18 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - invalid input value for enum type_langganan: \"bulanan\" on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:16:06:23 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - invalid input value for enum type_langganan: \"Bulanan\" on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:16:07:04 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - invalid input value for enum type_langganan: \"Bulanan\" on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "11/Aug/2020:16:07:05 +0000",
+    "message": "select \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" from \"v2\".\"tscn_paket\" as \"paket\" inner join \"v2\".\"tscn_price\" as \"price\" on \"price\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"tscn_paket_available\" as \"paket_available\" on \"paket_available\".\"id_paket\" = \"paket\".\"id_paket\" inner join \"v2\".\"ms_kelas\" as \"ms_kelas\" on \"ms_kelas\".\"id_kelas\" = \"paket_available\".\"id_kelas\" where \"paket\".\"active\" = $1 and \"kategori\" not in ($2) and \"ms_kelas\".\"id_kelas\" = $3 and \"price\".\"type\" = $4 group by \"paket\".\"id_paket\", \"nama_paket\", \"kelas\", \"brief\", \"description\", \"syarat\", \"ketentuan\", \"paket\".\"icon\", \"paket\".\"image\", \"duration\", \"type\", \"price\", \"id_price\" order by \"price\" ASC - invalid input value for enum type_langganan: \"Bulanan\" on url 192.168.1.6:3333/api/v2/web/transaksi/list/paket",
+    "level": "ERR"
+}

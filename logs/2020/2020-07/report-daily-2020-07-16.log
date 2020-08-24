@@ -1,0 +1,455 @@
+{
+    "timeStamp": "16/Jul/2020:03:08:00 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/UpdateTopik/ on url 192.168.1.6:3333/api/v2/master/UpdateTopik/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:03 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/getKumpulan on url 192.168.1.6:3333/api/v2/master/getKumpulan",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:19 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/getKumpulan on url 192.168.1.6:3333/api/v2/master/getKumpulan",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:20 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/getKumpulan on url 192.168.1.6:3333/api/v2/master/getKumpulan",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:53 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:54 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:56 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:56 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:56 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:56 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:56 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:08:56 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:09:08 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:09:09 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:09:25 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:09:26 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ on url 192.168.1.6:3333/api/v2/content/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:46:35 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"topik\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 - column topik.id_content does not exist on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:46:37 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"topik\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 - column topik.id_content does not exist on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:47:29 +0000",
+    "message": "select \"content\".\"id_content\", \"semester\", \"ujian\", \"bidang_studi\", \"topik\", \"limit\", \"kumpulan\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_semester\" as \"semester\" on \"content\".\"id_semester\" = \"semester\".\"id_semester\" inner join \"v2\".\"ms_ujian\" as \"ujian\" on \"content\".\"id_ujian\" = \"ujian\".\"id_ujian\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"topik\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 - column topik.id_content does not exist on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:28 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:30 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:30 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:30 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:30 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:31 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:31 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:34 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:36 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, DEFAULT, $8, DEFAULT, $9, $10) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:57 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, DEFAULT, $10, $11) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:50:58 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, DEFAULT, $10, $11) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:52:09 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, DEFAULT, $10, $11) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:52:18 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, DEFAULT, $10, $11) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:03:52:21 +0000",
+    "message": "insert into \"v2\".\"ts_content\" (\"created_at\", \"created_by\", \"id_bidang_studi\", \"id_feature\", \"id_jurusan\", \"id_kelas\", \"id_semester\", \"id_topik\", \"id_ujian\", \"kumpulan\", \"limit\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, DEFAULT, $10, $11) - column \"kumpulan\" of relation \"ts_content\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:04:30:44 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select \"id_content\" from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_topik\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:04:30:46 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select \"id_content\" from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_topik\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:04:53:19 +0000",
+    "message": "select \"id_content\" from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_topik\" = $5 and \"id_kumpulan\" = $6 and \"id_semester\" = $7 and \"id_ujian\" = $8 and \"limit\" = $9 limit $10 - column \"id_kumpulan\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:04:54:31 +0000",
+    "message": "select \"id_content\" from \"v2\".\"ts_content\" left join \"v2\".\"ts_kumpulan\" as \"kumpulan\" on \"content\".\"id_content\" = \"kumpulan\".\"id_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_topik\" = $5 and \"id_kumpulan\" = $6 and \"id_semester\" = $7 and \"id_ujian\" = $8 and \"limit\" = $9 limit $10 - missing FROM-clause entry for table \"content\" on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:04:56:00 +0000",
+    "message": "select \"id_content\" from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_topik\" = $5 and \"id_kumpulan\" is null and \"id_semester\" = $6 and \"id_ujian\" = $7 and \"limit\" = $8 limit $9 - column \"id_kumpulan\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:00:00 +0000",
+    "message": "select count(*) from \"v2\".\"kumpulan\" where \"kumpulan\" = $1 limit $2 - relation \"v2.kumpulan\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:00:30 +0000",
+    "message": "select count(*) from \"v2\".\"kumpulan\" where \"kumpulan\" = $1 limit $2 - relation \"v2.kumpulan\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:00:31 +0000",
+    "message": "select count(*) from \"v2\".\"kumpulan\" where \"kumpulan\" = $1 limit $2 - relation \"v2.kumpulan\" does not exist on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:15 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:16 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:17 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:18 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:18 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:18 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:19 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:19 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:19 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:20 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:20 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:20 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:20 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:21 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:05:06:21 +0000",
+    "message": "select \"id_content\", count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_bidang_studi\" = $4 and \"id_semester\" = $5 and \"id_ujian\" = $6 and \"limit\" = $7 limit $8 - column \"ts_content.id_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:37 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:39 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:39 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:40 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:40 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:40 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:40 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:40 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:41 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:41 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:47 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:10:49 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:12:35 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:12:55 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:14:54 +0000",
+    "message": "Null is not defined on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:14:57 +0000",
+    "message": "Null is not defined on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:14:58 +0000",
+    "message": "Null is not defined on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:15:08 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:15:18 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select \"id_content\" from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:15:19 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select \"id_content\" from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"id_bidang_studi\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? and \"limit\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:17:21 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal/ on url 192.168.1.6:3333/api/v2/soal/listSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:00 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal/ on url 192.168.1.6:3333/api/v2/soal/listSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:15 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/StoreContentMateri on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:18 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/StoreContentMateri on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:21 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal on url 192.168.1.6:3333/api/v2/soal/listSoal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:22 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal on url 192.168.1.6:3333/api/v2/soal/listSoal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:23 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal on url 192.168.1.6:3333/api/v2/soal/listSoal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:23 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal on url 192.168.1.6:3333/api/v2/soal/listSoal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:24 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal on url 192.168.1.6:3333/api/v2/soal/listSoal",
+    "level": "ERR"
+}
+{
+    "timeStamp": "16/Jul/2020:06:18:47 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal/ on url 192.168.1.6:3333/api/v2/soal/listSoal/",
+    "level": "ERR"
+}

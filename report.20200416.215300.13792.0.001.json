@@ -1,0 +1,414 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200416.215300.13792.0.001.json",
+    "dumpEventTime": "2020-04-16T21:53:00Z",
+    "dumpEventTimeStamp": "1587048780060",
+    "processId": 13792,
+    "cwd": "D:\\xampp\\htdocs\\permatamall-api",
+    "commandLine": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\xampp\\htdocs\\permatamall-api\\server.js"
+    ],
+    "nodejsVersion": "v13.6.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "13.6.0",
+      "v8": "7.9.317.25-node.26",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "79",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.1",
+      "openssl": "1.1.1d",
+      "cldr": "36.0",
+      "icu": "65.1",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v13.6.0/node-v13.6.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v13.6.0/node-v13.6.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v13.6.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1041984,
+        "nice": 0,
+        "sys": 1412250,
+        "idle": 20292468,
+        "irq": 93953
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 558468,
+        "nice": 0,
+        "sys": 861453,
+        "idle": 21326640,
+        "irq": 16687
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1312500,
+        "nice": 0,
+        "sys": 1430375,
+        "idle": 20003687,
+        "irq": 16390
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 638578,
+        "nice": 0,
+        "sys": 758765,
+        "idle": 21349218,
+        "irq": 16390
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1209125,
+        "nice": 0,
+        "sys": 1463203,
+        "idle": 20074234,
+        "irq": 16578
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 552890,
+        "nice": 0,
+        "sys": 669328,
+        "idle": 21524343,
+        "irq": 8468
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 1014890,
+        "nice": 0,
+        "sys": 1159625,
+        "idle": 20572046,
+        "irq": 13812
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4770 CPU @ 3.40GHz",
+        "speed": 3392,
+        "user": 691062,
+        "nice": 0,
+        "sys": 1008640,
+        "idle": 21046859,
+        "irq": 8843
+      }
+    ],
+    "host": "DESKTOP-HUK749G"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff738fa1be9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff738fa5f5c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff738fa4f18",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73909f84b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7398c7b7e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7398af2d1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73977655c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff73977e5bb",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff739773aa3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff739772234",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff739794304",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7394ee5c1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff739d110dd",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff739d120c8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000002570b523c8e",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 25370624,
+    "totalCommittedMemory": 25370624,
+    "usedMemory": 23567904,
+    "availableMemory": 2174428688,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 33040,
+        "used": 33040,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047424,
+        "used": 1047400,
+        "available": 24
+      },
+      "old_space": {
+        "memorySize": 18751488,
+        "committedMemory": 18751488,
+        "capacity": 18554208,
+        "used": 17664944,
+        "available": 889264
+      },
+      "code_space": {
+        "memorySize": 1740800,
+        "committedMemory": 1740800,
+        "capacity": 1639008,
+        "used": 1591296,
+        "available": 47712
+      },
+      "map_space": {
+        "memorySize": 1052672,
+        "committedMemory": 1052672,
+        "capacity": 1051088,
+        "used": 787520,
+        "available": 263568
+      },
+      "large_object_space": {
+        "memorySize": 2195456,
+        "committedMemory": 2195456,
+        "capacity": 2176944,
+        "used": 2176944,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 270336,
+        "committedMemory": 270336,
+        "capacity": 1047424,
+        "used": 263976,
+        "available": 783448
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 3.203,
+    "kernelCpuSeconds": 0.671,
+    "cpuConsumptionPercent": 0.031869,
+    "maxRss": 74039296,
+    "pageFaults": {
+      "IORequired": 95845,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2341,
+      "writes": 99
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "ACLOCAL_PATH": "C:\\Program Files\\Git\\mingw64\\share\\aclocal;C:\\Program Files\\Git\\usr\\share\\aclocal",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\PC-Black\\AppData\\Roaming",
+    "APP_KEY": "z4ODmYtZuRzTLWFJ79P1DbRRLacd1DSi",
+    "APP_NAME": "AdonisJs",
+    "APP_URL": "http://0.0.0.0:3333",
+    "CACHE_VIEWS": "false",
+    "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-HUK749G",
+    "COMSPEC": "C:\\Windows\\system32\\cmd.exe",
+    "CONFIG_SITE": "C:/Program Files/Git/mingw64/etc/config.site",
+    "DB_CONNECTION": "pg",
+    "DB_DATABASE": "development_v1",
+    "DB_DATABASE__": "db_permata_mall_v_0_0_1",
+    "DB_HOST": "103.241.24.142",
+    "DB_PASSWORD": "d1k0s0ng!n",
+    "DB_PORT": "5432",
+    "DB_USER": "postgres",
+    "DISPLAY": "needs-to-be-defined",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EXEPATH": "C:\\Program Files\\Git",
+    "GOOGLE_API_KEY": "no",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HASH_DRIVER": "bcrypt",
+    "HOME": "C:\\Users\\PC-Black",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\PC-Black",
+    "HOST": "0.0.0.0",
+    "HOSTNAME": "DESKTOP-HUK749G",
+    "INFOPATH": "C:\\Program Files\\Git\\usr\\local\\info;C:\\Program Files\\Git\\usr\\share\\info;C:\\Program Files\\Git\\usr\\info;C:\\Program Files\\Git\\share\\info",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\PC-Black\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-HUK749G",
+    "MAIL_CONNECTION": "smtp",
+    "MAIL_ENCRYPTION": "ssl",
+    "MAIL_PASSWORD": "#$#",
+    "MAIL_PORT": "465",
+    "MAIL_USERNAME": "permatastartup@gmail.com",
+    "MANPATH": "C:\\Program Files\\Git\\mingw64\\local\\man;C:\\Program Files\\Git\\mingw64\\share\\man;C:\\Program Files\\Git\\usr\\local\\man;C:\\Program Files\\Git\\usr\\share\\man;C:\\Program Files\\Git\\usr\\man;C:\\Program Files\\Git\\share\\man",
+    "MINGW_CHOST": "x86_64-w64-mingw32",
+    "MINGW_PACKAGE_PREFIX": "mingw-w64-x86_64",
+    "MINGW_PREFIX": "C:/Program Files/Git/mingw64",
+    "MSYSTEM": "MINGW64",
+    "MSYSTEM_CARCH": "x86_64",
+    "MSYSTEM_CHOST": "x86_64-w64-mingw32",
+    "MSYSTEM_PREFIX": "C:/Program Files/Git/mingw64",
+    "NODE_ENV": "development",
+    "NO_ANSI": "false",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\PC-Black\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\PC-Black\\OneDrive",
+    "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\PC-Black\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\nodejs;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\PC-Black\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\PC-Black\\AppData\\Roaming\\npm;C:\\Users\\PC-Black\\AppData\\Roaming\\Composer\\vendor\\bin",
+    "ORIGINAL_TEMP": "C:/Users/PC-Black/AppData/Local/Temp",
+    "ORIGINAL_TMP": "C:/Users/PC-Black/AppData/Local/Temp",
+    "OS": "Windows_NT",
+    "PATH": "C:\\Users\\PC-Black\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\local\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\PC-Black\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\nodejs;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\Users\\PC-Black\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\PC-Black\\AppData\\Roaming\\npm;C:\\Users\\PC-Black\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files\\Git\\usr\\bin\\vendor_perl;C:\\Program Files\\Git\\usr\\bin\\core_perl",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PKG_CONFIG_PATH": "C:\\Program Files\\Git\\mingw64\\lib\\pkgconfig;C:\\Program Files\\Git\\mingw64\\share\\pkgconfig",
+    "PLINK_PROTOCOL": "ssh",
+    "PORT": "3333",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3c03",
+    "ProgramData": "C:\\ProgramData",
+    "PROGRAMFILES": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PWD": "D:/xampp/htdocs/permatamall-api",
+    "SESSIONNAME": "Console",
+    "SESSION_DRIVER": "cookie",
+    "SHELL": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
+    "SHLVL": "2",
+    "SMTP_HOST": "smtp.gmail.com",
+    "SSH_ASKPASS": "C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass",
+    "SYSTEMDRIVE": "C:",
+    "SYSTEMROOT": "C:\\Windows",
+    "TEMP": "C:\\Users\\PC-Black\\AppData\\Local\\Temp",
+    "TERM": "xterm",
+    "TMP": "C:\\Users\\PC-Black\\AppData\\Local\\Temp",
+    "TMPDIR": "C:\\Users\\PC-Black\\AppData\\Local\\Temp",
+    "URL_DOMAIN_FRONTEND": "https://permatamall.com/",
+    "URL_WEBSOCKET": "ws://103.241.24.142:9300",
+    "USERDOMAIN": "DESKTOP-HUK749G",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-HUK749G",
+    "USERNAME": "PC-Black",
+    "USERPROFILE": "C:\\Users\\PC-Black",
+    "WINDIR": "C:\\Windows",
+    "_": "C:/Program Files/nodejs/node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll"
+  ]
+}

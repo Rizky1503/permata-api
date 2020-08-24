@@ -1,0 +1,65 @@
+{
+    "timeStamp": "29/Jun/2020:09:14:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/deleteSoal/ on url 192.168.1.6:3333/api/v2/soal/deleteSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:15:01 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/deleteSoal/ on url 192.168.1.6:3333/api/v2/soal/deleteSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:15:05 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/deleteSoal/ on url 192.168.1.6:3333/api/v2/soal/deleteSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:15:44 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/deleteSoal/ on url 192.168.1.6:3333/api/v2/soal/deleteSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:17:56 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ms_topik\" where \"topik\" = ? limit ? on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:17:58 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ms_topik\" where \"topik\" = ? limit ? on url 192.168.1.6:3333/api/v2/master/topik",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:25:14 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/DeleteTopik/ on url 192.168.1.6:3333/api/v2/master/DeleteTopik/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:25:17 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/DeleteTopik/ on url 192.168.1.6:3333/api/v2/master/DeleteTopik/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:25:27 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/DeleteTopik/ on url 192.168.1.6:3333/api/v2/master/DeleteTopik/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:25:53 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/master/DeleteTopik/ on url 192.168.1.6:3333/api/v2/master/DeleteTopik/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:26:17 +0000",
+    "message": "Database.table(...).where(...).delet is not a function on url 192.168.1.6:3333/api/v2/master/DeleteTopik/74",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:26:25 +0000",
+    "message": "Database.table(...).where(...).delet is not a function on url 192.168.1.6:3333/api/v2/master/DeleteTopik/74",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jun/2020:09:26:40 +0000",
+    "message": "Database.table(...).where(...).delet is not a function on url 192.168.1.6:3333/api/v2/master/DeleteTopik/74",
+    "level": "ERR"
+}

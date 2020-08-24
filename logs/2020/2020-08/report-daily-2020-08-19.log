@@ -1,0 +1,415 @@
+{
+    "timeStamp": "19/Aug/2020:06:46:59 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/riasec/kategori on url 192.168.1.6:3333/api/v2/riasec/kategori",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:06:47:50 +0000",
+    "message": "select * from \"v2\".\"riasec_kategori\" order by \"id_kaegori\" ASC - column \"id_kaegori\" does not exist on url 192.168.1.6:3333/api/v2/riasec/TampilKatergori",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:07:05:38 +0000",
+    "message": "request is not defined on url 192.168.1.6:3333/api/v2/riasec/StoreKatergori",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:07:13:46 +0000",
+    "message": "Inputs is not defined on url 192.168.1.6:3333/api/v2/riasec/EditKategori/8",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:07:13:58 +0000",
+    "message": "response is not defined on url 192.168.1.6:3333/api/v2/riasec/EditKategori/8",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:07:13:59 +0000",
+    "message": "response is not defined on url 192.168.1.6:3333/api/v2/riasec/EditKategori/8",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:07:14:34 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/riasec/UpdateKategori on url 192.168.1.6:3333/api/v2/riasec/UpdateKategori",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:07:14:55 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/riasec/DeletedKategori/8 on url 192.168.1.6:3333/api/v2/riasec/DeletedKategori/8",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:07:15:11 +0000",
+    "message": "Inputs is not defined on url 192.168.1.6:3333/api/v2/riasec/DeletedKategori/8",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:02:40 +0000",
+    "message": "E_UNDEFINED_METHOD: Method TampilContent/:id missing on App/Controllers/Http/Reasec/backend/ReasecController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/riasec/TampilContent/1",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:14:04 +0000",
+    "message": "select \"t1\".\"id_riasec_content\", \"t1\".\"name\", \"t2\".\"name\" as \"kategori\" from \"v2\".\"riasec_content\" as \"t1\" left join \"v2\".\"riasec_kategori\" as \"t2\" on \"t1\".\"id_kategori\" = \"t2\".\"id_kategori\" group by \"kategori\" order by \"sort\" ASC - column \"t1.id_riasec_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/riasec/TampilContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:14:04 +0000",
+    "message": "select \"t1\".\"id_riasec_content\", \"t1\".\"name\", \"t2\".\"name\" as \"kategori\" from \"v2\".\"riasec_content\" as \"t1\" left join \"v2\".\"riasec_kategori\" as \"t2\" on \"t1\".\"id_kategori\" = \"t2\".\"id_kategori\" group by \"kategori\" order by \"sort\" ASC - column \"t1.id_riasec_content\" must appear in the GROUP BY clause or be used in an aggregate function on url 192.168.1.6:3333/api/v2/riasec/TampilContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:21:05 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/riasec/StoreContent on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:21:09 +0000",
+    "message": "Unexpected token \t\t\t.orderBy('sort'.'DESC')\r on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:21:27 +0000",
+    "message": "select \"sort\" from \"v2\".\"riasec_kategori\" where \"id_kategori\" is null order by \"sort\" DESC - column \"sort\" does not exist on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:21:37 +0000",
+    "message": "select \"sort\" from \"v2\".\"id_riasec_content\" where \"id_kategori\" is null order by \"sort\" DESC - relation \"v2.id_riasec_content\" does not exist on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:21:38 +0000",
+    "message": "select \"sort\" from \"v2\".\"id_riasec_content\" where \"id_kategori\" is null order by \"sort\" DESC - relation \"v2.id_riasec_content\" does not exist on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:21:55 +0000",
+    "message": "select \"sort\" from \"v2\".\"id_riasec_content\" - relation \"v2.id_riasec_content\" does not exist on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:22:01 +0000",
+    "message": "select * from \"v2\".\"id_riasec_content\" - relation \"v2.id_riasec_content\" does not exist on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:23:28 +0000",
+    "message": "sorting is not defined on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:23:35 +0000",
+    "message": "sorting is not defined on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:23:42 +0000",
+    "message": "sorting is not defined on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:24:33 +0000",
+    "message": "Unexpected token \t\t\t\tname \t\t: Inputs.name,\r on url 192.168.1.6:3333/api/v2/riasec/StoreContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:32:04 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/riasec/TampilContent on url 192.168.1.6:3333/api/v2/riasec/TampilContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:08:51:16 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/riasec/UpdateContent on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:00:19 +0000",
+    "message": "E_INVALID_MAKE_STRING: Ioc.makeFunc expects a string in module.method format instead received App/Controllers/Http/Reasec/backend/ReasecController.\n> More details: https://err.sh/adonisjs/errors/E_INVALID_MAKE_STRING on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:08:49 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/riasec/StoreRekomendasi on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:08:52 +0000",
+    "message": "Unexpected token \t\t\t\tsub_title \t\t: Inputs.description\r on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:09:22 +0000",
+    "message": "Unexpected token \t\t\t\tsub_title \t\t: Inputs.sub_title\r on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:09:50 +0000",
+    "message": "Unexpected token \t\t\t\tsub_title \t\t: Inputs.sub_title\r on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:09:51 +0000",
+    "message": "Unexpected token \t\t\t\tsub_title \t\t: Inputs.sub_title\r on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:09:52 +0000",
+    "message": "Unexpected token \t\t\t\tsub_title \t\t: Inputs.sub_title\r on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:09:52 +0000",
+    "message": "Unexpected token \t\t\t\tsub_title \t\t: Inputs.sub_title\r on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:09:53 +0000",
+    "message": "Unexpected token \t\t\t\tsub_title \t\t: Inputs.sub_title\r on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:09:53 +0000",
+    "message": "Unexpected token \t\t\t\tsub_title \t\t: Inputs.sub_title\r on url 192.168.1.6:3333/api/v2/riasec/StoreRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:39 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:40 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:41 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:41 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:41 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:42 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:46 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:46 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:47 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:47 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:47 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:48 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:48 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:48 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:49 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:49 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:50 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:50 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:50 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:51 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:51 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:20:52 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/UpdateContent",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:21:01 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:21:05 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:21:15 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:21:35 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:22:03 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:22:04 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:22:04 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:22:05 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:22:14 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:22:31 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:22:46 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:22:58 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:23:22 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:23:23 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:23:32 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:23:46 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:23:53 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:24:05 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:24:26 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:24:27 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:25:03 +0000",
+    "message": "Unexpected token \t\t\t\tid_kategori : Inputs.kategori\r on url 192.168.1.6:3333/api/v2/riasec/TampilRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:26:01 +0000",
+    "message": "Undefined binding(s) detected when compiling UPDATE query: update \"v2\".\"riasec_kategori\" set \"title\" = ?, \"sub_title\" = ?, \"id_kategori\" = ? where \"id_kategori_rekomendasi\" = ? on url 192.168.1.6:3333/api/v2/riasec/UpdateRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:26:07 +0000",
+    "message": "Undefined binding(s) detected when compiling UPDATE query: update \"v2\".\"riasec_kategori\" set \"title\" = ?, \"sub_title\" = ?, \"id_kategori\" = ? where \"id_kategori_rekomendasi\" = ? on url 192.168.1.6:3333/api/v2/riasec/UpdateRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:26:43 +0000",
+    "message": "Undefined binding(s) detected when compiling UPDATE query: update \"v2\".\"riasec_kategori\" set \"title\" = ?, \"sub_title\" = ?, \"id_kategori\" = ? where \"id_kategori_rekomendasi\" = ? on url 192.168.1.6:3333/api/v2/riasec/UpdateRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:27:01 +0000",
+    "message": "update \"v2\".\"riasec_kategori\" set \"title\" = $1, \"sub_title\" = $2, \"id_kategori\" = $3 where \"id_kategori_rekomendasi\" = $4 - column \"id_kategori_rekomendasi\" does not exist on url 192.168.1.6:3333/api/v2/riasec/UpdateRekomendasi",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/Aug/2020:09:27:05 +0000",
+    "message": "update \"v2\".\"riasec_kategori\" set \"title\" = $1, \"sub_title\" = $2, \"id_kategori\" = $3 where \"id_kategori_rekomendasi\" = $4 - column \"id_kategori_rekomendasi\" does not exist on url 192.168.1.6:3333/api/v2/riasec/UpdateRekomendasi",
+    "level": "ERR"
+}

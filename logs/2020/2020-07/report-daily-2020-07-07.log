@@ -1,0 +1,95 @@
+{
+    "timeStamp": "07/Jul/2020:04:51:28 +0000",
+    "message": "select \"id_feature\", \"feature\", \"tahun\" from \"v2\".\"ms_feature\" order by \"sort\" ASC - column \"tahun\" does not exist on url 192.168.1.6:3333/api/v2/content/getfeature",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:04:51:29 +0000",
+    "message": "select \"id_feature\", \"feature\", \"tahun\" from \"v2\".\"ms_feature\" order by \"sort\" ASC - column \"tahun\" does not exist on url 192.168.1.6:3333/api/v2/content/getfeature",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:04:51:32 +0000",
+    "message": "select \"id_feature\", \"feature\", \"tahun\" from \"v2\".\"ms_feature\" order by \"sort\" ASC - column \"tahun\" does not exist on url 192.168.1.6:3333/api/v2/content/getfeature",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:04:51:39 +0000",
+    "message": "select \"id_feature\", \"feature\", \"tahun\" from \"v2\".\"ms_feature\" order by \"sort\" ASC - column \"tahun\" does not exist on url 192.168.1.6:3333/api/v2/content/getfeature",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:04:51:39 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /favicon.ico on url 192.168.1.6:3333/favicon.ico",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:05:02:20 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"tahun\" = ? and \"id_feature\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentFitur",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:05:02:24 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"tahun\" = ? and \"id_feature\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentFitur",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:05:02:27 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"tahun\" = ? and \"id_feature\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentFitur",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:05:03:44 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"tahun\" = ? and \"id_feature\" = ? limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentFitur",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:05:58:36 +0000",
+    "message": "select \"content\".\"id_content\", \"bidang_studi\", \"topik\", \"limit\" from \"v2\".\"ts_content\" as \"content\" where \"id_kelas\" = $1 and \"id_jurusan\" = $2 and \"id_feature\" = $3 and \"id_semester\" = $4 and \"id_ujian\" = $5 order by \"content\".\"id_content\" DESC - column \"bidang_studi\" does not exist on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:06:01:20 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"bidang_studi\", \"topik\", \"limit\", \"tahun\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"tahun\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? order by \"content\".\"id_content\" DESC on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:06:01:42 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"bidang_studi\", \"topik\", \"limit\", \"content\".\"tahun\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"tahun\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? order by \"content\".\"id_content\" DESC on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:06:03:14 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/content/ListContentMateri on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:06:03:22 +0000",
+    "message": "Undefined binding(s) detected when compiling SELECT query: select \"content\".\"id_content\", \"bidang_studi\", \"topik\", \"limit\", \"content\".\"tahun\" from \"v2\".\"ts_content\" as \"content\" inner join \"v2\".\"ms_bidang_studi\" as \"bidang_studi\" on \"content\".\"id_bidang_studi\" = \"bidang_studi\".\"id_bidang_studi\" left join \"v2\".\"ms_topik\" as \"topik\" on \"content\".\"id_topik\" = \"topik\".\"id_topik\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"tahun\" = ? and \"id_semester\" = ? and \"id_ujian\" = ? order by \"content\".\"id_content\" DESC on url 192.168.1.6:3333/api/v2/content/ListContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:06:11:16 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"tahun\" = ? and \"id_bidang_studi\" is null limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:06:14:54 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"tahun\" = ? and \"id_bidang_studi\" is null limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:06:14:59 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"tahun\" = ? and \"id_bidang_studi\" is null limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:06:49:18 +0000",
+    "message": "Undefined binding(s) detected when compiling FIRST query: select count(*) from \"v2\".\"ts_content\" where \"id_kelas\" = ? and \"id_jurusan\" = ? and \"id_feature\" = ? and \"tahun\" = ? and \"id_bidang_studi\" is null limit ? on url 192.168.1.6:3333/api/v2/content/StoreContentMateri",
+    "level": "ERR"
+}
+{
+    "timeStamp": "07/Jul/2020:09:40:10 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/web/soal on url 192.168.1.6:3333/api/v2/web/soal",
+    "level": "ERR"
+}

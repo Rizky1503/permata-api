@@ -1,0 +1,30 @@
+{
+    "timeStamp": "03/Aug/2020:10:33:02 +0000",
+    "message": "request is not defined on url 192.168.1.6:3333/api/v2/master/DeleteTopik/70/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "03/Aug/2020:10:33:06 +0000",
+    "message": "request is not defined on url 192.168.1.6:3333/api/v2/master/DeleteTopik/70/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "03/Aug/2020:10:33:40 +0000",
+    "message": "request is not defined on url 192.168.1.6:3333/api/v2/master/DeleteTopik/70/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "03/Aug/2020:10:35:01 +0000",
+    "message": "dataundefineddi hapus oleh2 on url 192.168.1.6:3333/api/v2/master/DeleteTopik/70/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "03/Aug/2020:10:38:39 +0000",
+    "message": "data{\"id_topik\":72,\"topik\":\"AKUNTANSI SEBAGAI SISTEM INFORMASI\",\"sort\":\"120\",\"created_at\":\"2020-06-25T07:10:29.071Z\",\"updated_at\":\"2020-06-25T07:10:29.071Z\",\"created_by\":\"3\"}di hapus oleh 2 on url 192.168.1.6:3333/api/v2/master/DeleteTopik/72/2",
+    "level": "ERR"
+}
+{
+    "timeStamp": "03/Aug/2020:10:44:13 +0000",
+    "message": "data{\"id_topik\":72,\"topik\":\"AKUNTANSI SEBAGAI SISTEM INFORMASI\",\"sort\":\"120\",\"created_at\":\"2020-06-25T07:10:29.071Z\",\"updated_at\":\"2020-06-25T07:10:29.071Z\",\"created_by\":\"3\"}di hapus oleh user id2 on url 192.168.1.6:3333/api/v2/master/DeleteTopik/72/2",
+    "level": "ERR"
+}

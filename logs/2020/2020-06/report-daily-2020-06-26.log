@@ -1,0 +1,80 @@
+{
+    "timeStamp": "26/Jun/2020:04:20:59 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/soal/storeVideo on url 192.168.1.6:3333/api/v2/soal/storeVideo",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:31:55 +0000",
+    "message": "insert into \"v2\".\"ts_video\" (\"banner\", \"created_at\", \"created_by\", \"description\", \"duration\", \"file\", \"free\", \"id_content\", \"slug\", \"title\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) returning \"id_video\" - invalid input syntax for integer: \"12:12\" on url 192.168.1.6:3333/api/v2/video/storeVideo",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:33:35 +0000",
+    "message": "insert into \"v2\".\"ts_video\" (\"banner\", \"created_at\", \"created_by\", \"description\", \"duration\", \"file\", \"free\", \"id_content\", \"slug\", \"title\", \"updated_at\") values ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) returning \"id_video\" - invalid input syntax for integer: \"12:12\" on url 192.168.1.6:3333/api/v2/video/storeVideo",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:40:41 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v2/video/listVideo/78 on url 192.168.1.6:3333/api/v2/video/listVideo/78",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:40:48 +0000",
+    "message": "E_UNDEFINED_METHOD: Method listVideo missing on App/Controllers/Http/v2/Backend/Ts_SoalController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/video/listVideo/78",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:41:40 +0000",
+    "message": "E_UNDEFINED_METHOD: Method listVideo missing on App/Controllers/Http/v2/Backend/Ts_SoalController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/video/listVideo/78",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:41:41 +0000",
+    "message": "E_UNDEFINED_METHOD: Method listVideo missing on App/Controllers/Http/v2/Backend/Ts_SoalController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/video/listVideo/78",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:41:49 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/video/listVideo/78 on url 192.168.1.6:3333/api/v2/video/listVideo/78",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:41:52 +0000",
+    "message": "E_UNDEFINED_METHOD: Method listVideo missing on App/Controllers/Http/v2/Backend/Ts_SoalController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/video/listVideo",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:42:23 +0000",
+    "message": "E_UNDEFINED_METHOD: Method listVideo missing on App/Controllers/Http/v2/Backend/Ts_SoalController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/video/listVideo/78",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:42:26 +0000",
+    "message": "E_UNDEFINED_METHOD: Method listVideo missing on App/Controllers/Http/v2/Backend/Ts_SoalController\n> More details: https://err.sh/adonisjs/errors/E_UNDEFINED_METHOD on url 192.168.1.6:3333/api/v2/video/listVideo/78",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:04:42:33 +0000",
+    "message": "response is not defined on url 192.168.1.6:3333/api/v2/video/listVideo/78",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:06:13:48 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/video/deleteVideo/ on url 192.168.1.6:3333/api/v2/video/deleteVideo/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:06:13:52 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/video/deleteVideo/ on url 192.168.1.6:3333/api/v2/video/deleteVideo/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:10:16:02 +0000",
+    "message": "Identifier 'hapusVideo' has already been declared \t\tconst hapusVideo = await Database\r on url 192.168.1.6:3333/api/v2/content/ListContentKelas",
+    "level": "ERR"
+}
+{
+    "timeStamp": "26/Jun/2020:10:16:06 +0000",
+    "message": "Identifier 'hapusVideo' has already been declared \t\tconst hapusVideo = await Database\r on url 192.168.1.6:3333/api/v2/content/ListContentKelas",
+    "level": "ERR"
+}

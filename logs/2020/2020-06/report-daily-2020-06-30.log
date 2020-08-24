@@ -1,0 +1,5 @@
+{
+    "timeStamp": "30/Jun/2020:02:15:08 +0000",
+    "message": "select \"in_soal_langganan_paket\".*, \"in_soal_langganan_paket_harga\".\"amount\" from \"in_soal_langganan_paket\" inner join \"in_soal_langganan_paket_harga\" on \"in_soal_langganan_paket\".\"id_paket\" = \"in_soal_langganan_paket_harga\".\"id_paket\" order by \"in_soal_langganan_paket\".\"short\" ASC - read ECONNRESET on url 192.168.1.6:3333/api/v1/bo/list/paket",
+    "level": "ERR"
+}

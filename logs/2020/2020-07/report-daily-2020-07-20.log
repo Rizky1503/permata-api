@@ -1,0 +1,10 @@
+{
+    "timeStamp": "20/Jul/2020:03:09:46 +0000",
+    "message": "select * from \"v2\".\"tscn_paket\" order by \"sort\" ASC - column \"sort\" does not exist on url 192.168.1.6:3333/api/v2/paket/ListPaket",
+    "level": "ERR"
+}
+{
+    "timeStamp": "20/Jul/2020:04:21:36 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/paket/SetActive on url 192.168.1.6:3333/api/v2/paket/SetActive",
+    "level": "ERR"
+}

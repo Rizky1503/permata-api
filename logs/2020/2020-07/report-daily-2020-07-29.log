@@ -1,0 +1,20 @@
+{
+    "timeStamp": "29/Jul/2020:03:12:06 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal/ on url 192.168.1.6:3333/api/v2/soal/listSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jul/2020:03:12:10 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal/ on url 192.168.1.6:3333/api/v2/soal/listSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jul/2020:03:12:16 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal/ on url 192.168.1.6:3333/api/v2/soal/listSoal/",
+    "level": "ERR"
+}
+{
+    "timeStamp": "29/Jul/2020:03:12:30 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/soal/listSoal/ on url 192.168.1.6:3333/api/v2/soal/listSoal/",
+    "level": "ERR"
+}

@@ -1,0 +1,100 @@
+{
+    "timeStamp": "14/Aug/2020:03:09:52 +0000",
+    "message": "select * from \"v2\".\"ts_quiz\" where \"id_content\" = $1 and \"uuid\" = $2 order by \"title\" ASC - column \"uuid\" does not exist on url 192.168.1.6:3333/api/v2/kuis/listkuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:03:10:21 +0000",
+    "message": "select * from \"v2\".\"ts_quiz\" where \"id_content\" = $1 and \"uuid\" = $2 order by \"title\" ASC - column \"uuid\" does not exist on url 192.168.1.6:3333/api/v2/kuis/listkuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:07:16:32 +0000",
+    "message": "insert into \"v2\".\"ts_quiz\" (\"created_by\", \"id_content\", \"jawaban\", \"pembahasan\", \"soal\", \"title\", \"uudi\") values ($1, $2, $3, $4, $5, $6, DEFAULT) - column \"uudi\" of relation \"ts_quiz\" does not exist on url 192.168.1.6:3333/api/v2/kuis/StoreKuis",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:07:17:59 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/StoreKuis on url 192.168.1.6:3333/api/v2/kuis/StoreKuis",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:07:18:22 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/storekuis on url 192.168.1.6:3333/api/v2/kuis/storekuis",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:07:18:23 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/storekuis on url 192.168.1.6:3333/api/v2/kuis/storekuis",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:07:18:27 +0000",
+    "message": "insert into \"v2\".\"ts_quiz\" (\"created_by\", \"id_content\", \"jawaban\", \"pembahasan\", \"soal\", \"title\", \"uudi\") values ($1, $2, $3, $4, $5, $6, DEFAULT) - column \"uudi\" of relation \"ts_quiz\" does not exist on url 192.168.1.6:3333/api/v2/kuis/storekuis",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:11:49 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/deletekuis/1947/37 on url 192.168.1.6:3333/api/v2/kuis/deletekuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:11:51 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/deletekuis/1947/37 on url 192.168.1.6:3333/api/v2/kuis/deletekuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:11:51 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/deletekuis/1947/37 on url 192.168.1.6:3333/api/v2/kuis/deletekuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:11:51 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/deletekuis/1947/37 on url 192.168.1.6:3333/api/v2/kuis/deletekuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:11:52 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/deletekuis/1947/37 on url 192.168.1.6:3333/api/v2/kuis/deletekuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:11:52 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/deletekuis/1947/37 on url 192.168.1.6:3333/api/v2/kuis/deletekuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:11:58 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/deletekuis/1947/37 on url 192.168.1.6:3333/api/v2/kuis/deletekuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:12:03 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v2/kuis/deletekuis/1947/37 on url 192.168.1.6:3333/api/v2/kuis/deletekuis/1947/37",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:55:39 +0000",
+    "message": "Cannot find module 'imagekit'\nRequire stack:\n- D:\\xampp\\htdocs\\permatamall-api\\app\\Controllers\\Http\\v2\\Backend\\Ts_RingkasanMateriController.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\src\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\src\\Ioc\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\server.js on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/1284",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:55:45 +0000",
+    "message": "Cannot find module 'imagekit'\nRequire stack:\n- D:\\xampp\\htdocs\\permatamall-api\\app\\Controllers\\Http\\v2\\Backend\\Ts_RingkasanMateriController.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\src\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\src\\Ioc\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\server.js on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/1284",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:55:59 +0000",
+    "message": "Cannot find module 'imagekit'\nRequire stack:\n- D:\\xampp\\htdocs\\permatamall-api\\app\\Controllers\\Http\\v2\\Backend\\Ts_RingkasanMateriController.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\src\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\src\\Ioc\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\server.js on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/1284",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:56:05 +0000",
+    "message": "Cannot find module 'imagekit'\nRequire stack:\n- D:\\xampp\\htdocs\\permatamall-api\\app\\Controllers\\Http\\v2\\Backend\\Ts_RingkasanMateriController.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\src\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\src\\Ioc\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\server.js on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/1286",
+    "level": "ERR"
+}
+{
+    "timeStamp": "14/Aug/2020:08:56:23 +0000",
+    "message": "Cannot find module 'imagekit'\nRequire stack:\n- D:\\xampp\\htdocs\\permatamall-api\\app\\Controllers\\Http\\v2\\Backend\\Ts_RingkasanMateriController.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\src\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\require-stack\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\src\\Ioc\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\node_modules\\@adonisjs\\fold\\index.js\n- D:\\xampp\\htdocs\\permatamall-api\\server.js on url 192.168.1.6:3333/api/v2/ringkasan/listRingkasanMateri/1286",
+    "level": "ERR"
+}

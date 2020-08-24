@@ -1,0 +1,45 @@
+{
+    "timeStamp": "19/May/2020:06:56:56 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /robots.txt on url 127.0.0.1:3333/robots.txt",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/May/2020:06:56:57 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /favicon.ico on url 127.0.0.1:3333/favicon.ico",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/May/2020:07:13:39 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v1/bo/langganan/latihan/request_data on url 192.168.1.14:3333/api/v1/bo/langganan/latihan/request_data",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/May/2020:07:13:45 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found POST /api/v1/bo/langganan/latihan/request_data on url 192.168.1.14:3333/api/v1/bo/langganan/latihan/request_data",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/May/2020:07:13:54 +0000",
+    "message": "Undefined binding(s) detected when compiling DEL query: delete from \"in_soal_temp_langganan\" where \"id_user\" = ? on url 192.168.1.14:3333/api/v1/mobile/bo/langganan/latihan/request_data",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/May/2020:07:36:06 +0000",
+    "message": "Cannot read property 'id_matpel' of undefined on url 192.168.1.14:3333/api/v1/mobile/bo/langganan/latihan/request_data",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/May/2020:07:55:22 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v1/cront-job/reminder-bimbel-online-1-day on url 127.0.0.1:3333/api/v1/cront-job/reminder-bimbel-online-1-day",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/May/2020:07:55:24 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v1/cront-job/reminder-bimbel-online-1-day on url 127.0.0.1:3333/api/v1/cront-job/reminder-bimbel-online-1-day",
+    "level": "ERR"
+}
+{
+    "timeStamp": "19/May/2020:07:55:26 +0000",
+    "message": "E_ROUTE_NOT_FOUND: Route not found GET /api/v1/cront-job/reminder-bimbel-online-1-day on url 127.0.0.1:3333/api/v1/cront-job/reminder-bimbel-online-1-day",
+    "level": "ERR"
+}
